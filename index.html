@@ -99,7 +99,7 @@
         }
 
         function reloadWithExampleURL() {
-            const exampleURL = 'file:///C:/Users/ITSAMEMARIO/Desktop/forwardingurl4.html#https://www.youtube.com';
+            const exampleURL = 'https://framellarchive.github.io/BASIC-HASH-HANDLER/#https://www.youtube.com';
             window.location.href = exampleURL;
         }
     </script>
@@ -110,16 +110,16 @@
     <button onclick="redirectToHash()">Go to URL</button>
 
     <div class="example-url">
-        file:///C:/Users/ITSAMEMARIO/Desktop/forwardingurl4.html#https://www.youtube.com/
+        https://framellarchive.github.io/BASIC-HASH-HANDLER/
     </div>
 
     <button onclick="reloadWithExampleURL()">Reload with Example URL</button>
     
     <div class="note">
 Note: <br><br>You don't need a button to forward to the hash. <br><br>You can use an active event listener to handle hash changes automatically.<br>
-window.addEventListener('hashchange', redirectToHash);<br>
+"window.addEventListener('hashchange', redirectToHash);"<br>
 or just call it directly with<br>
-redirectToHash();
+"redirectToHash();"
 
     </div>
     
